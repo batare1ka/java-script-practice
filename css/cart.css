@@ -1,0 +1,53 @@
+section {
+	min-height: 46.2vh
+}
+.btn-count{
+	padding: 0;
+	border: none;
+	background-color: inherit;
+	color: white;
+}
+.btn-count .plus{
+	margin-right: -1.8px;
+	background-color: green;
+	padding: 5px 10px;
+	border-radius: 15% 0% 0% 15%;
+}
+.btn-count .minus{
+	margin-left: -1.8px;
+	background-color: red;
+	padding: 5px 11.4px;
+	border-radius: 0% 15% 15% 0%;
+}
+.total-price{
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.buy-button{
+	border: none;
+	background-color: green;
+	padding: 10px 40px;
+	border-radius: 10px;
+	color: white;
+}
+.price::after{
+	content: " $";
+
+}
+.total-price{
+	padding: 30px 0 10px 0 !important;
+	text-align: center;
+	 vertical-align: middle;
+}
+.total-price::before{
+	content: "Total: ";
+}
+.total-price::after{
+	content: " $";
+}
+.multi-price{
+	opacity: 0.3;
+}
+.multi-price::after {
+	content: " $";
+}
